@@ -1,0 +1,83 @@
+
+/* styleRA.css */
+
+/* Navbar styling */
+
+body{
+    background-color: #dcf6f7;
+}
+.navDiv {
+    background-color: #343a40;
+    /* Navbar background color */
+    margin-bottom: 100px;
+}
+
+.navbar-brand{
+    font-size: 23px;
+    color: #12a9ae;
+    font-weight: 500
+}
+
+.nav-link,
+.navbar-toggler-icon {
+    color: #12a9ae;
+    /* Navbar text color */
+    font-size: 15px;
+    font-weight: 450;
+}
+
+.nav-link:hover {
+    color: #14d8c4;
+    /* Hover color for navbar links */
+}
+
+/* Card styling */
+.cardsDiv {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Card box shadow */
+}
+
+.card-header {
+    background-color: #12a9ae;
+    /* Header background color */
+    color: #fff;
+    /* Header text color */
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+.card-title {
+    color: #12a9ae;
+    /* Card title color */
+}
+
+.card-text {
+    color: #555;
+    /* Card text color */
+}
+
+.card-img-top {
+    height: 150px;
+    object-fit: cover;
+    /* Ensure the image covers the entire container */
+}
+
+.btn-primary {
+    background-color: #12a9ae;
+    /* Button background color */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #14d8c4;
+    /* Hover color for the button */
+}
